@@ -21,7 +21,8 @@ def isWinner(x, nums):
 
     def count_primes(n):
         """
-        Counts the number of prime numbers up to n using the Sieve of Eratosthenes
+        Counts the number of prime numbers up to n,
+        using the Sieve of Eratosthenes
 
         Args:
             n (int): upper limit to find primes
@@ -62,4 +63,3 @@ def isWinner(x, nums):
         return "Ben"
     else:
         return None
-
